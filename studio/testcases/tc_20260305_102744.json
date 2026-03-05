@@ -1,0 +1,652 @@
+{
+  "test_cases": [
+    {
+      "question": "Mitkä ovat yleisimmät taktiikat, joita käytetään yhdistämällä hyökkäys- ja puolustustoimia?",
+      "metadata": {
+        "user_id": 3,
+        "user_description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+        "task_id": 1,
+        "task_description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Venäjän taktiikoiden ja Uuden Sotageneraatio välinen vuorovaikutus ilmenee?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 2,
+        "task_description": "Tee vertailuja eri sotilasyksiköiden välillä",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat Venäjän MTR:n eri yksiköiden yhteistyökumppaneita?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Akateeminen tutkija militarismin ja strategian alalla",
+        "task_id": 1,
+        "task_description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 2S19 Howitzer eroaa muista tykistön järjestelmistä?",
+      "metadata": {
+        "user_id": 5,
+        "user_description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+        "task_id": 1,
+        "task_description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten RHBZ Suojelu liittyy Venäjän armeijan strategisiin tavoitteisiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 1,
+        "task_description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten T-14 Armata eroaa T-72 päätaisteluvaunusta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 2,
+        "task_description": "Tee vertailuja eri sotilasyksiköiden välillä",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Venäjän armeijan strategiset kumppanuudet vaikuttavat sen sotilasdoktriiniin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Akateeminen tutkija militarismin ja strategian alalla",
+        "task_id": 1,
+        "task_description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Taktiset Echelonin ja VDV:n välillä?",
+      "metadata": {
+        "user_id": 3,
+        "user_description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+        "task_id": 1,
+        "task_description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat keskeiset teemat Venäjän sotilasdoktriinin ja 6. sukupolven sodankäynnin välillä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Akateeminen tutkija militarismin ja strategian alalla",
+        "task_id": 1,
+        "task_description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Informaatioympäristö liittyy Venäjän kansallisiin etuihin?",
+      "metadata": {
+        "user_id": 4,
+        "user_description": "Kyber- ja informaationhallintojen asiantuntija",
+        "task_id": 1,
+        "task_description": "Analysoi informaationhallinnan menetelmiä",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat Motorisoitujen Jalkaväkilohkojen yhteistyökumppaneita, jotka myös tekevät RHBZ suojelua?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 2,
+        "task_description": "Tee vertailuja eri sotilasyksiköiden välillä",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Venäjän sotilasdoktriini liittyy Ydin-, Kemiallisten ja biologisten operaatioiden kehitykseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Akateeminen tutkija militarismin ja strategian alalla",
+        "task_id": 1,
+        "task_description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat hyökkäystaktiikoiden näkyvimmät kehittäjät Venäjän armeijassa?",
+      "metadata": {
+        "user_id": 3,
+        "user_description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+        "task_id": 1,
+        "task_description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Venäjän taktiikat liittyvät SV:n hyökkäysoperaatioihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 1,
+        "task_description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kaksi-puolisen Hyökkäyksen taktiikka liittyy SV:n operaatioihin?",
+      "metadata": {
+        "user_id": 3,
+        "user_description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+        "task_id": 1,
+        "task_description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät teemat Venäjän taktiikoiden ympärillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 1,
+        "task_description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Taktiset Toimet ja Venäjän MTR:n välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 1,
+        "task_description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on TOS-1 Kompleksin ja Venäjän taktiikoiden välillä?",
+      "metadata": {
+        "user_id": 5,
+        "user_description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+        "task_id": 1,
+        "task_description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten SV:n hyökkäys toimenpiteet eroavat puolustuksesta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 1,
+        "task_description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Syvä Rullaus Barrage eroaa Perinteisestä Tykin Tulituksesta?",
+      "metadata": {
+        "user_id": 3,
+        "user_description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+        "task_id": 1,
+        "task_description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Venäjän sotilasdoktriinilla ja Logistiikkapaikoilla?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Akateeminen tutkija militarismin ja strategian alalla",
+        "task_id": 1,
+        "task_description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys Sähkömagneettisen sodankäynnin ja C2-verkkojen välillä?",
+      "metadata": {
+        "user_id": 4,
+        "user_description": "Kyber- ja informaationhallintojen asiantuntija",
+        "task_id": 1,
+        "task_description": "Analysoi informaationhallinnan menetelmiä",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kapteeni eroaa Yksikön Komentajasta SV:n kontekstissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 2,
+        "task_description": "Tee vertailuja eri sotilasyksiköiden välillä",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 9K35 Strela-10 liittyy MT-LB:hen?",
+      "metadata": {
+        "user_id": 5,
+        "user_description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+        "task_id": 1,
+        "task_description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yhteiset teemat Sähkömagneettisen sodankäynnin ja Komentokeskusten välillä?",
+      "metadata": {
+        "user_id": 4,
+        "user_description": "Kyber- ja informaationhallintojen asiantuntija",
+        "task_id": 1,
+        "task_description": "Analysoi informaationhallinnan menetelmiä",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat eräiden Venäjän käytössä olevien asejärjestelmien kehittäjiä?",
+      "metadata": {
+        "user_id": 5,
+        "user_description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+        "task_id": 1,
+        "task_description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat REB-yksiköiden yhteistyökumppaneita, jotka myös käsittelevät informaatiota?",
+      "metadata": {
+        "user_id": 4,
+        "user_description": "Kyber- ja informaationhallintojen asiantuntija",
+        "task_id": 1,
+        "task_description": "Analysoi informaationhallinnan menetelmiä",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys UAS:n ja taistelurekognitiivisuuden välillä?",
+      "metadata": {
+        "user_id": 5,
+        "user_description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+        "task_id": 1,
+        "task_description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys Insinööripataljoonalla ja 2S19 Howitzerilla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Puolustusvoimien strateginen analyytikko",
+        "task_id": 2,
+        "task_description": "Tee vertailuja eri sotilasyksiköiden välillä",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Venäjän Informaatiosodankäynnin strategiat eroavat Lännen menetelmistä?",
+      "metadata": {
+        "user_id": 4,
+        "user_description": "Kyber- ja informaationhallintojen asiantuntija",
+        "task_id": 1,
+        "task_description": "Analysoi informaationhallinnan menetelmiä",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    }
+  ],
+  "metadata": {
+    "method": "edge_et_al_2024_graphrag",
+    "dataset_description": "The dataset primarily covers military tactics and strategies employed by the Russian Armed Forces, specifically detailed in the Army Techniques Publication ATP 7-100.1. The knowledge graph includes various entities such as military organizations (e.g., Caspian Sea Flotilla, Spetsnaz), concepts (e.g., Tactical Actions, Heavy Weapons), methods (e.g., Counterattacks, Airborne Assault), and artifacts (e.g., TOS-1 Complex, 2S19 Howitzer), along with their interrelationships. This data is typically used for military training, strategic planning, and analysis of operational capabilities, providing insights into Russian military doctrine and practices. Analytical questions that could be addressed include the effectiveness of specific tactics in various combat scenarios, comparisons of Russian military capabilities against adversaries, and the impact of technological advancements on military operations.",
+    "total_questions": 30,
+    "graph_questions": 30,
+    "chunk_questions": 0,
+    "num_users": 5,
+    "num_tasks_per_user": 5,
+    "num_questions_per_task": 5,
+    "num_chunk_questions_per_task": 0,
+    "has_graph_data": true,
+    "graph_stats": {
+      "total_entities": 2979,
+      "total_relations": 2884
+    },
+    "generation_time_seconds": 50.7,
+    "generation_time_formatted": "0:00:50",
+    "tokens_used": {
+      "input": 10280,
+      "output": 2399,
+      "total": 12679
+    },
+    "cost_estimate": {
+      "input_cost": 0.001542,
+      "output_cost": 0.001439,
+      "total_cost": 0.002981,
+      "model": "gpt-4o-mini"
+    },
+    "graph_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Puolustusvoimien strateginen analyytikko",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi Venäjän armeijan taktiikoita ja strategioita",
+              "questions": [
+                "Miten Venäjän taktiikat liittyvät SV:n hyökkäysoperaatioihin?",
+                "Mikä yhteys on Taktiset Toimet ja Venäjän MTR:n välillä?",
+                "Mitkä ovat yleisimmät teemat Venäjän taktiikoiden ympärillä?",
+                "Miten RHBZ Suojelu liittyy Venäjän armeijan strategisiin tavoitteisiin?",
+                "Miten SV:n hyökkäys toimenpiteet eroavat puolustuksesta?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Tee vertailuja eri sotilasyksiköiden välillä",
+              "questions": [
+                "Miten Kapteeni eroaa Yksikön Komentajasta SV:n kontekstissa?",
+                "Ketkä ovat Motorisoitujen Jalkaväkilohkojen yhteistyökumppaneita, jotka myös tekevät RHBZ suojelua?",
+                "Mikä on yhteys Insinööripataljoonalla ja 2S19 Howitzerilla?",
+                "Miten T-14 Armata eroaa T-72 päätaisteluvaunusta?",
+                "Miten Venäjän taktiikoiden ja Uuden Sotageneraatio välinen vuorovaikutus ilmenee?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 2,
+          "description": "Akateeminen tutkija militarismin ja strategian alalla",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Tutki Venäjän sotilasdoktriinin kehitystä",
+              "questions": [
+                "Miten Venäjän sotilasdoktriini liittyy Ydin-, Kemiallisten ja biologisten operaatioiden kehitykseen?",
+                "Mitkä ovat keskeiset teemat Venäjän sotilasdoktriinin ja 6. sukupolven sodankäynnin välillä?",
+                "Ketkä ovat Venäjän MTR:n eri yksiköiden yhteistyökumppaneita?",
+                "Miten Venäjän armeijan strategiset kumppanuudet vaikuttavat sen sotilasdoktriiniin?",
+                "Mikä yhteys on Venäjän sotilasdoktriinilla ja Logistiikkapaikoilla?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 3,
+          "description": "Sotilaallinen kouluttaja, joka opettaa taktiikoita",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Kouluta oppilaita Venäjän armeijan taktiikoista",
+              "questions": [
+                "Miten Kaksi-puolisen Hyökkäyksen taktiikka liittyy SV:n operaatioihin?",
+                "Mitkä ovat yleisimmät taktiikat, joita käytetään yhdistämällä hyökkäys- ja puolustustoimia?",
+                "Mikä yhteys on Taktiset Echelonin ja VDV:n välillä?",
+                "Ketkä ovat hyökkäystaktiikoiden näkyvimmät kehittäjät Venäjän armeijassa?",
+                "Miten Syvä Rullaus Barrage eroaa Perinteisestä Tykin Tulituksesta?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 4,
+          "description": "Kyber- ja informaationhallintojen asiantuntija",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi informaationhallinnan menetelmiä",
+              "questions": [
+                "Miten Informaatioympäristö liittyy Venäjän kansallisiin etuihin?",
+                "Mikä on yhteys Sähkömagneettisen sodankäynnin ja C2-verkkojen välillä?",
+                "Ketkä ovat REB-yksiköiden yhteistyökumppaneita, jotka myös käsittelevät informaatiota?",
+                "Miten Venäjän Informaatiosodankäynnin strategiat eroavat Lännen menetelmistä?",
+                "Mitkä ovat yhteiset teemat Sähkömagneettisen sodankäynnin ja Komentokeskusten välillä?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 5,
+          "description": "Sotilaallinen asiantuntija, joka analysoi Venäjän asejärjestelmiä",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Tee teknisiä analyysejä Venäjän asejärjestelmistä",
+              "questions": [
+                "Miten 9K35 Strela-10 liittyy MT-LB:hen?",
+                "Mikä yhteys on TOS-1 Kompleksin ja Venäjän taktiikoiden välillä?",
+                "Ketkä ovat eräiden Venäjän käytössä olevien asejärjestelmien kehittäjiä?",
+                "Miten 2S19 Howitzer eroaa muista tykistön järjestelmistä?",
+                "Mikä on yhteys UAS:n ja taistelurekognitiivisuuden välillä?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chunk_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Military Strategist focused on analyzing and improving battlefield tactics.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Evaluate the effectiveness of specific Russian military tactics in urban warfare.",
+              "questions": []
+            },
+            {
+              "task_id": 2,
+              "description": "Compare the tactical approaches of the Russian Armed Forces with those of NATO.",
+              "questions": []
+            },
+            {
+              "task_id": 3,
+              "description": "Analyze the impact of technological advancements on Russian military strategies.",
+              "questions": []
+            },
+            {
+              "task_id": 4,
+              "description": "Identify lessons learned from past military operations conducted by the Russian Armed Forces.",
+              "questions": []
+            },
+            {
+              "task_id": 5,
+              "description": "Assess the role of specialized units like Spetsnaz in contemporary conflicts.",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "user_id": 2,
+          "description": "Defense Analyst tasked with evaluating military capabilities and strategy.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Conduct a capability assessment of the Russian heavy artillery units.",
+              "questions": []
+            },
+            {
+              "task_id": 2,
+              "description": "Research the operational roles of various military organizations in Russia.",
+              "questions": []
+            },
+            {
+              "task_id": 3,
+              "description": "Examine the implications of Russian military doctrine on regional security.",
+              "questions": []
+            },
+            {
+              "task_id": 4,
+              "description": "Identify key artifacts and their strategic significance in military operations.",
+              "questions": []
+            },
+            {
+              "task_id": 5,
+              "description": "Analyze how Russian military strategies adapt to emerging threats.",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "user_id": 3,
+          "description": "Military Trainer responsible for developing training programs based on military doctrines.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Develop training modules that incorporate Russian military tactics.",
+              "questions": []
+            },
+            {
+              "task_id": 2,
+              "description": "Evaluate the training needs of military personnel in light of Russian operational practices.",
+              "questions": []
+            },
+            {
+              "task_id": 3,
+              "description": "Design simulation exercises that reflect Russian military strategies and tactics.",
+              "questions": []
+            },
+            {
+              "task_id": 4,
+              "description": "Assess the effectiveness of joint exercises with allies using Russian tactics as a benchmark.",
+              "questions": []
+            },
+            {
+              "task_id": 5,
+              "description": "Identify historical case studies to include in training sessions.",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "user_id": 4,
+          "description": "Policy Maker involved in national security and defense policy formulation.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analyze how Russian military doctrines influence foreign policy decisions.",
+              "questions": []
+            },
+            {
+              "task_id": 2,
+              "description": "Evaluate the potential responses to Russian military strategies in the region.",
+              "questions": []
+            },
+            {
+              "task_id": 3,
+              "description": "Study the implications of technological innovations on future military engagements.",
+              "questions": []
+            },
+            {
+              "task_id": 4,
+              "description": "Assess the risks posed by specific Russian military capabilities to national security.",
+              "questions": []
+            },
+            {
+              "task_id": 5,
+              "description": "Develop strategies to bolster national defense against Russian tactics.",
+              "questions": []
+            }
+          ]
+        },
+        {
+          "user_id": 5,
+          "description": "Researcher focusing on military history and contemporary military studies.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Conduct a historical analysis of Russian military strategies over the decades.",
+              "questions": []
+            },
+            {
+              "task_id": 2,
+              "description": "Investigate the evolution of specific military tactics in response to changing warfare paradigms.",
+              "questions": []
+            },
+            {
+              "task_id": 3,
+              "description": "Explore case studies of successful and unsuccessful military operations conducted by Russia.",
+              "questions": []
+            },
+            {
+              "task_id": 4,
+              "description": "Analyze the impact of leadership changes on military tactics and strategies.",
+              "questions": []
+            },
+            {
+              "task_id": 5,
+              "description": "Compile a comprehensive overview of Russian military technology and its historical context.",
+              "questions": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

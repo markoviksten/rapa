@@ -16,7 +16,7 @@ if not api_key:
 client = OpenAI(api_key=api_key)
 
 # Vektorit josta testcaset generoidaan
-INPUT_FILE = "data/nano3/rag_storage/vdb_chunks.json"
+INPUT_FILE = "data/nano7/rag_storage/vdb_chunks.json"
 
 # Token-hinnat (USD per 1M tokenia)
 TOKEN_PRICES = {

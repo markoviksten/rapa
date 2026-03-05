@@ -1,0 +1,1058 @@
+{
+  "test_cases": [
+    {
+      "question": "Ketkä ovat yritykset, jotka ovat saaneet korkeaa Liikevoittoa ja mitkä Rahoituskulut heillä on?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Liikevoitto eroaa Rahoitustuotoista X:n suhteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tilinpäätöksen liitteet, kuten Toimintakertomus, vaikuttavat arvioon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 4,
+        "task_description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Tuloslaskelman ja Vertailuluvun välillä eri yrityksillä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 5,
+        "task_description": "Valmistaa raportteja vertailulukuja varten.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Liiketoiminnan Kulujen ja Liikevoiton välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 5,
+        "task_description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tuloslaskelma liittyy siihen, miten valmistelet asiakirjat asiakkaille?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 2,
+        "task_description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät erot Tuloslaskelman ja Liikevoiton välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 3,
+        "task_description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen tilinpäätös valmistuu tarkastusta varten, ja mitä erityisiä asioita tulisi huomioida?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 2,
+        "task_description": "Preparing for audits based on financial statements.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat yrityksiä, joiden Tase on hyvä ja miten ne eroavat muuttuvista veloista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 2,
+        "task_description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät haasteet, jotka vaikuttavat Vakavaraisuuteen Taseen osalta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 2,
+        "task_description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat yrityksiä, jotka ovat parantaneet vertailulukujaan ja mitä muutoksia he ovat tehneet?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 5,
+        "task_description": "Valmistaa raportteja vertailulukuja varten.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tuloslaskelma eroaa Rahoituslaskelmasta eri yrityksillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 3,
+        "task_description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat niitä yrityksiä, joiden raportit ovat myöhässä ja mitä seuraamuksia heille on annettu?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 1,
+        "task_description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Liikevoittoa voidaan käyttää asiakkaan tulevaisuuden suunnitelmien arvioimiseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 3,
+        "task_description": "Tukea asiakkaita talouden suunnitelmissa.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä johtopäätöksiä voidaan tehdä yrityksen likviditeetistä verrattuna kilpailijoihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 2,
+        "task_description": "Comparing financial health with industry benchmarks.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat asiakkaita, joille on toimitettu virheellisiä asiakirjoja ja mitkä olivat syyt virheille?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 2,
+        "task_description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat asiakkaita, jotka hyötyvät eniten Rahoituskuluista ja miksi?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 3,
+        "task_description": "Tukea asiakkaita talouden suunnitelmissa.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät syyt matalaan Liikevoittoon Rahoituskulujen osalta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Oma Pääoman ja asiakkaan taloudellisen suunnitelman välillä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 3,
+        "task_description": "Tukea asiakkaita talouden suunnitelmissa.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä syitä voisi olla erojen taustalla yrityksen ja sen kilpailijoiden välillä taloudellisessa suorituskyvyssä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 2,
+        "task_description": "Comparing financial health with industry benchmarks.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Vertailuluvut liittyvät yrityksen edellisiin tilikausiin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 5,
+        "task_description": "Valmistaa raportteja vertailulukuja varten.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Voitko vertailla yrityksen rahoitustuottoja ja -kustannuksia kolmen vuoden ajalta ja mitä johtopäätöksiä voit tehdä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 1,
+        "task_description": "Analyzing a company's profitability over the last three years.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen taseen tiedot verrattuna alan keskiarvoon, ja mitkä ovat tärkeimmät erot?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 2,
+        "task_description": "Comparing financial health with industry benchmarks.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Taseen Vastattavaa-puoli vaikuttaa Vakavaraisuuteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 2,
+        "task_description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät vaatimukset, joita kirjanpitäjien on noudatettava Tilinpäätöksissä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 1,
+        "task_description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät erot asiakirjan valmisteluprosessissa eri asiakkaille?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 2,
+        "task_description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät aihealueet, joita asiakkaat kysyvät talouden suunnittelusta?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 3,
+        "task_description": "Tukea asiakkaita talouden suunnitelmissa.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä haasteita yritys voi kohdata valmistautuessaan tarkastukseen, ja miten ne voidaan ratkaista?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 2,
+        "task_description": "Preparing for audits based on financial statements.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Vakavaraisuus liittyy Taseeseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 2,
+        "task_description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat yritykset, joiden Tilinpäätökset on tarkastettu ja mitä puutteita niissä on ollut?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 4,
+        "task_description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yrityksen tuloslaskelman keskeisin osa-alue, joka on vaikuttanut sen taloudelliseen kehitykseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 1,
+        "task_description": "Analyzing a company's profitability over the last three years.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten asiakastilit vaikuttavat Oikeushenkilöiden Tuloslaskelman laatimiseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 2,
+        "task_description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät trendit Tilinpäätösten laadinnassa ja verotuksessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 4,
+        "task_description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät syyt korkeisiin liiketoimintakuluihin eri toimialoilla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 5,
+        "task_description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tilinpäätöspäivä vaikuttaa raportoinnin aikarajoihin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 1,
+        "task_description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri taloudelliset dokumentit, kuten toimintakertomus, tukevat lain noudattamista?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 1,
+        "task_description": "Ensuring compliance with legal frameworks in financial reporting.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Verotuksen ja Tuloslaskelman välillä lainvoimaisissa muutoksissa?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 4,
+        "task_description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen tuloslaskelma heijastaa sen liiketoimintastrategiaa ja taloudellista suorituskykyä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 1,
+        "task_description": "Analyzing a company's profitability over the last three years.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Liikevoitto liittyy Rahoituskuluihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen toimintakertomus voi auttaa tarkastuksessa ja mitä tietoja sen tulisi sisältää?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 2,
+        "task_description": "Preparing for audits based on financial statements.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Rahoitustuotot liittyvät asiakkaiden talouden suunnitteluun?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 3,
+        "task_description": "Tukea asiakkaita talouden suunnitelmissa.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kirjanpitolaki vaikuttaa yrityksen tilinpäätöksen laatimiseen ja esittämiseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 1,
+        "task_description": "Ensuring compliance with legal frameworks in financial reporting.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten osakeyhtiön kumppanuus vaikuttaa heidän kirjanpitokäytäntöihinsä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 4,
+        "task_description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri rahoitusindikaattorit, kuten oman pääoman tuotto, vaihtelevat yrityksen ja alan keskiarvojen välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 2,
+        "task_description": "Comparing financial health with industry benchmarks.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kirjanpitolaki liittyy Tilinpäätöksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 4,
+        "task_description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä vaatimuksia tilinpäätökselle asetetaan Kirjanpitolaissa, ja miten yritys on täyttänyt nämä vaatimukset?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 1,
+        "task_description": "Ensuring compliance with legal frameworks in financial reporting.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten taloudellisten dokumenttien, kuten tilinpäätöksen, laatu vaikuttaa auditointiprosessiin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 2,
+        "task_description": "Preparing for audits based on financial statements.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Tuloslaskelman ja Liikevaihdon välillä eri yrityksissä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 3,
+        "task_description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Kaupparekisterin ja Tilinpäätöksen toimitusvelvoitteiden välillä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 1,
+        "task_description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Liikevoiton ja Tuloveron välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Tilintarkastajan Päätösmerkinnän ja Tilinpäätöksen välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 4,
+        "task_description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten asiakkaille voidaan tarjota syvällisempää analyysiä, perustuen vertailulukuihin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 5,
+        "task_description": "Valmistaa raportteja vertailulukuja varten.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yrityksen rooli lakisääteisten velvoitteiden täyttämisessä, ja miten se näkyy tilinpäätöksessä?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 1,
+        "task_description": "Ensuring compliance with legal frameworks in financial reporting.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen liikevoitto on muuttunut viimeisen kolmen vuoden aikana ja mitkä tekijät ovat vaikuttaneet tähän muutokseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 1,
+        "task_description": "Analyzing a company's profitability over the last three years.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat tärkeimmät taloudelliset tiedot, jotka tarkastajat haluavat nähdä tilinpäätöksessä, ja miksi?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 2,
+        "task_description": "Preparing for audits based on financial statements.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat ne yritykset, joiden liiketoiminnan kulut ovat suurimmat ja kuinka se vaikuttaa heidän tulokseensa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 5,
+        "task_description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat ne yritykset, joiden Tuloslaskelmat osoittavat kasvua viime tilikauden aikana?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 3,
+        "task_description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten lainsäädäntö voi vaikuttaa yrityksen taloudelliseen raportointiin ja sen läpinäkyvyyteen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Compliance Officer",
+        "task_id": 1,
+        "task_description": "Ensuring compliance with legal frameworks in financial reporting.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Liiketoiminnan Muut Kulut liittyvät käyttöomaisuuteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 5,
+        "task_description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri yritysten kulukohdat eroavat toisistaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 5,
+        "task_description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät haasteet, joita kohdataan vertailulukuja valmistettaessa?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 5,
+        "task_description": "Valmistaa raportteja vertailulukuja varten.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kirjanpitoasetus liittyy tilinpäätösten laatimiseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 4,
+        "task_description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kirjanpitolaki liittyy Taseeseen ja sen laatimiseen?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 1,
+        "task_description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat niitä asiakkaita, jotka ovat mukautuneet nopeasti lainmuutoksiin ja miten se ilmenee taloudessa?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 4,
+        "task_description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät lainmuutosten vaikutukset talousraportointiin?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 4,
+        "task_description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Oikeushenkilöiden Tuloslaskelmat eroavat Taseista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 3,
+        "task_description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten tilinpäätös ja toimintakertomus yhdessä paljastavat yrityksen taloudellisen terveyden suhteessa toimialan standardeihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 2,
+        "task_description": "Comparing financial health with industry benchmarks.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Vakavaraisuuden ja Oma Pääoman välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+        "task_id": 2,
+        "task_description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä trendejä voidaan havaita yrityksen kannattavuudessa, ja miten nämä vertautuvat alan keskiarvoon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst",
+        "task_id": 1,
+        "task_description": "Analyzing a company's profitability over the last three years.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Rahoituslaskelman ja Tilinpäätöksen välillä asiakirjojen valmistelussa?",
+      "metadata": {
+        "user_id": 2,
+        "user_description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+        "task_id": 2,
+        "task_description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    }
+  ],
+  "metadata": {
+    "method": "edge_et_al_2024_graphrag",
+    "dataset_description": "The dataset covers the domain of corporate financial reporting, specifically focusing on the preparation and interpretation of financial statements such as balance sheets (tase) and income statements (tuloslaskelma) in Finland. The knowledge graph includes entities such as companies (yritys), financial concepts (like rahoitustuotot and liikevoitto), legal frameworks (like the Kirjanpitolaki), and various financial documents (like the tilinpäätös and toimintakertomus). Relationships among these entities illustrate how financial data is structured and interconnected, such as how income statements lead to calculations of profitability and how balance sheets reflect a company's financial health. This data is typically used for financial analysis, compliance with legal requirements, and aiding business decision-making. Analytical questions it could answer include inquiries about a company's profitability, liquidity, and overall financial stability, as well as comparisons with previous periods or industry benchmarks.",
+    "total_questions": 70,
+    "graph_questions": 50,
+    "chunk_questions": 20,
+    "num_users": 2,
+    "num_tasks_per_user": 5,
+    "num_questions_per_task": 5,
+    "has_graph_data": true,
+    "graph_stats": {
+      "total_entities": 53,
+      "total_relations": 47
+    },
+    "generation_time_seconds": 41.4,
+    "generation_time_formatted": "0:00:41",
+    "tokens_used": {
+      "input": 11547,
+      "output": 2735,
+      "total": 14282
+    },
+    "cost_estimate": {
+      "input_cost": 0.001732,
+      "output_cost": 0.001641,
+      "total_cost": 0.003373,
+      "model": "gpt-4o-mini"
+    },
+    "graph_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Taloudellinen analyytikko, joka käyttää tietoa yritysten taloudellisesta tilasta ja verotuksesta.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi yrityksen liikevoittoa ja sen suhteita rahoituskuluihin.",
+              "questions": [
+                "Miten Liikevoitto liittyy Rahoituskuluihin?",
+                "Mikä yhteys on Liikevoiton ja Tuloveron välillä?",
+                "Miten Liikevoitto eroaa Rahoitustuotoista X:n suhteen?",
+                "Ketkä ovat yritykset, jotka ovat saaneet korkeaa Liikevoittoa ja mitkä Rahoituskulut heillä on?",
+                "Mitkä ovat yleisimmät syyt matalaan Liikevoittoon Rahoituskulujen osalta?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Tutki yrityksen vakavaraisuutta ja sen yhteydet taseeseen.",
+              "questions": [
+                "Miten Vakavaraisuus liittyy Taseeseen?",
+                "Mikä yhteys on Vakavaraisuuden ja Oma Pääoman välillä?",
+                "Miten Taseen Vastattavaa-puoli vaikuttaa Vakavaraisuuteen?",
+                "Ketkä ovat yrityksiä, joiden Tase on hyvä ja miten ne eroavat muuttuvista veloista?",
+                "Mitkä ovat yleisimmät haasteet, jotka vaikuttavat Vakavaraisuuteen Taseen osalta?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Vertaile eri yritysten tuloslaskelmien sisältöä.",
+              "questions": [
+                "Miten Tuloslaskelma eroaa Rahoituslaskelmasta eri yrityksillä?",
+                "Mikä yhteys on Tuloslaskelman ja Liikevaihdon välillä eri yrityksissä?",
+                "Miten Oikeushenkilöiden Tuloslaskelmat eroavat Taseista?",
+                "Ketkä ovat ne yritykset, joiden Tuloslaskelmat osoittavat kasvua viime tilikauden aikana?",
+                "Mitkä ovat yleisimmät erot Tuloslaskelman ja Liikevoiton välillä?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Arvioi tilinpäätösten vaatimustenmukaisuus.",
+              "questions": [
+                "Miten Kirjanpitolaki liittyy Tilinpäätöksiin?",
+                "Mikä yhteys on Tilintarkastajan Päätösmerkinnän ja Tilinpäätöksen välillä?",
+                "Miten Tilinpäätöksen liitteet, kuten Toimintakertomus, vaikuttavat arvioon?",
+                "Ketkä ovat yritykset, joiden Tilinpäätökset on tarkastettu ja mitä puutteita niissä on ollut?",
+                "Mitkä ovat yleisimmät trendit Tilinpäätösten laadinnassa ja verotuksessa?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Tee yhteenveto yritysten liiketoimintakuluista.",
+              "questions": [
+                "Miten Liiketoiminnan Muut Kulut liittyvät käyttöomaisuuteen?",
+                "Mikä yhteys on Liiketoiminnan Kulujen ja Liikevoiton välillä?",
+                "Miten eri yritysten kulukohdat eroavat toisistaan?",
+                "Ketkä ovat ne yritykset, joiden liiketoiminnan kulut ovat suurimmat ja kuinka se vaikuttaa heidän tulokseensa?",
+                "Mitkä ovat yleisimmät syyt korkeisiin liiketoimintakuluihin eri toimialoilla?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 2,
+          "description": "Kirjanpitäjä, joka avustaa yrityksiä talousraportoinnissa ja noudattamisessa.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Ensisijaiset raportointivaatimukset ja aikarajat.",
+              "questions": [
+                "Miten Kirjanpitolaki liittyy Taseeseen ja sen laatimiseen?",
+                "Mikä yhteys on Kaupparekisterin ja Tilinpäätöksen toimitusvelvoitteiden välillä?",
+                "Miten Tilinpäätöspäivä vaikuttaa raportoinnin aikarajoihin?",
+                "Ketkä ovat niitä yrityksiä, joiden raportit ovat myöhässä ja mitä seuraamuksia heille on annettu?",
+                "Mitkä ovat yleisimmät vaatimukset, joita kirjanpitäjien on noudatettava Tilinpäätöksissä?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Valmistella asiakkaille tarvittavat talousasiakirjat.",
+              "questions": [
+                "Miten Tuloslaskelma liittyy siihen, miten valmistelet asiakirjat asiakkaille?",
+                "Mikä yhteys on Rahoituslaskelman ja Tilinpäätöksen välillä asiakirjojen valmistelussa?",
+                "Miten asiakastilit vaikuttavat Oikeushenkilöiden Tuloslaskelman laatimiseen?",
+                "Ketkä ovat asiakkaita, joille on toimitettu virheellisiä asiakirjoja ja mitkä olivat syyt virheille?",
+                "Mitkä ovat yleisimmät erot asiakirjan valmisteluprosessissa eri asiakkaille?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Tukea asiakkaita talouden suunnitelmissa.",
+              "questions": [
+                "Miten Rahoitustuotot liittyvät asiakkaiden talouden suunnitteluun?",
+                "Mikä yhteys on Oma Pääoman ja asiakkaan taloudellisen suunnitelman välillä?",
+                "Miten Liikevoittoa voidaan käyttää asiakkaan tulevaisuuden suunnitelmien arvioimiseen?",
+                "Ketkä ovat asiakkaita, jotka hyötyvät eniten Rahoituskuluista ja miksi?",
+                "Mitkä ovat yleisimmät aihealueet, joita asiakkaat kysyvät talouden suunnittelusta?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Seuraa lainvoimaisia muutoksia talousraportoinnissa.",
+              "questions": [
+                "Miten Kirjanpitoasetus liittyy tilinpäätösten laatimiseen?",
+                "Mikä yhteys on Verotuksen ja Tuloslaskelman välillä lainvoimaisissa muutoksissa?",
+                "Miten osakeyhtiön kumppanuus vaikuttaa heidän kirjanpitokäytäntöihinsä?",
+                "Ketkä ovat niitä asiakkaita, jotka ovat mukautuneet nopeasti lainmuutoksiin ja miten se ilmenee taloudessa?",
+                "Mitkä ovat yleisimmät lainmuutosten vaikutukset talousraportointiin?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Valmistaa raportteja vertailulukuja varten.",
+              "questions": [
+                "Miten Vertailuluvut liittyvät yrityksen edellisiin tilikausiin?",
+                "Mikä yhteys on Tuloslaskelman ja Vertailuluvun välillä eri yrityksillä?",
+                "Miten asiakkaille voidaan tarjota syvällisempää analyysiä, perustuen vertailulukuihin?",
+                "Ketkä ovat yrityksiä, jotka ovat parantaneet vertailulukujaan ja mitä muutoksia he ovat tehneet?",
+                "Mitkä ovat yleisimmät haasteet, joita kohdataan vertailulukuja valmistettaessa?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chunk_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Financial Analyst",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analyzing a company's profitability over the last three years.",
+              "questions": [
+                "Miten yrityksen liikevoitto on muuttunut viimeisen kolmen vuoden aikana ja mitkä tekijät ovat vaikuttaneet tähän muutokseen?",
+                "Voitko vertailla yrityksen rahoitustuottoja ja -kustannuksia kolmen vuoden ajalta ja mitä johtopäätöksiä voit tehdä?",
+                "Miten yrityksen tuloslaskelma heijastaa sen liiketoimintastrategiaa ja taloudellista suorituskykyä?",
+                "Mitä trendejä voidaan havaita yrityksen kannattavuudessa, ja miten nämä vertautuvat alan keskiarvoon?",
+                "Mikä on yrityksen tuloslaskelman keskeisin osa-alue, joka on vaikuttanut sen taloudelliseen kehitykseen?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Comparing financial health with industry benchmarks.",
+              "questions": [
+                "Miten yrityksen taseen tiedot verrattuna alan keskiarvoon, ja mitkä ovat tärkeimmät erot?",
+                "Mitä johtopäätöksiä voidaan tehdä yrityksen likviditeetistä verrattuna kilpailijoihin?",
+                "Miten tilinpäätös ja toimintakertomus yhdessä paljastavat yrityksen taloudellisen terveyden suhteessa toimialan standardeihin?",
+                "Mitä syitä voisi olla erojen taustalla yrityksen ja sen kilpailijoiden välillä taloudellisessa suorituskyvyssä?",
+                "Miten eri rahoitusindikaattorit, kuten oman pääoman tuotto, vaihtelevat yrityksen ja alan keskiarvojen välillä?"
+              ]
+            }
+          ]
+        },
+        {
+          "user_id": 2,
+          "description": "Compliance Officer",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Ensuring compliance with legal frameworks in financial reporting.",
+              "questions": [
+                "Miten Kirjanpitolaki vaikuttaa yrityksen tilinpäätöksen laatimiseen ja esittämiseen?",
+                "Mitä vaatimuksia tilinpäätökselle asetetaan Kirjanpitolaissa, ja miten yritys on täyttänyt nämä vaatimukset?",
+                "Miten eri taloudelliset dokumentit, kuten toimintakertomus, tukevat lain noudattamista?",
+                "Mikä on yrityksen rooli lakisääteisten velvoitteiden täyttämisessä, ja miten se näkyy tilinpäätöksessä?",
+                "Miten lainsäädäntö voi vaikuttaa yrityksen taloudelliseen raportointiin ja sen läpinäkyvyyteen?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Preparing for audits based on financial statements.",
+              "questions": [
+                "Miten yrityksen tilinpäätös valmistuu tarkastusta varten, ja mitä erityisiä asioita tulisi huomioida?",
+                "Mitkä ovat tärkeimmät taloudelliset tiedot, jotka tarkastajat haluavat nähdä tilinpäätöksessä, ja miksi?",
+                "Miten yrityksen toimintakertomus voi auttaa tarkastuksessa ja mitä tietoja sen tulisi sisältää?",
+                "Miten taloudellisten dokumenttien, kuten tilinpäätöksen, laatu vaikuttaa auditointiprosessiin?",
+                "Mitä haasteita yritys voi kohdata valmistautuessaan tarkastukseen, ja miten ne voidaan ratkaista?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

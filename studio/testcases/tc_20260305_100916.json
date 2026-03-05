@@ -1,0 +1,762 @@
+{
+  "test_cases": [
+    {
+      "question": "Miten taloudelliset indikaattorit, kuten kannattavuus, vaikuttavat yrityksen asemaan toimialalla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 4,
+        "task_description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Tilinpäätös' kuvaa yrityksen likviditeettiä ja mitä lukuja siihen liittyy?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of a company based on its financial statements.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen 'tase' -erät noudattavat tai poikkeavat lainsäädännön vaatimuksista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 3,
+        "task_description": "Perform a compliance check against legal standards for financial reporting.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten maksukyky ja vakavaraisuus liittyvät toisiinsa yrityksessä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen taloudellista vakautta.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen likviditeetti vertautuu toimialan keskiarvoon ja mitkä ovat sen kilpailuedut tai -haitat?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of a company based on its financial statements.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät haasteet, joita yritykset kohtaavat rahoituskuluissa ja -tuotoissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 4,
+        "task_description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Vientiyrityksen taloudellinen tilanne vertautuu muihin vientitoimialoihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 5,
+        "task_description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten rahoituskulut ja -tuotot liittyvät toisiinsa tilinpäätöksessä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 4,
+        "task_description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Rahoituskulut' voivat vaikuttaa yrityksen likviditeettiin ja sen kykyyn täyttää velvoitteet?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of a company based on its financial statements.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Kirjanpitolaki' vaikuttaa yrityksen 'Tilinpäätös' -prosesseihin ja -käytäntöihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 3,
+        "task_description": "Perform a compliance check against legal standards for financial reporting.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri vuosien 'tuloslaskelma' komponentit suhteutuvat toisiinsa ja mitä se kertoo yrityksen taloudellisesta tilasta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last five years.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri yritysten 'tuloslaskelma' -analyysi voi auttaa tunnistamaan parhaita käytäntöjä ja kehitysmahdollisuuksia?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 4,
+        "task_description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri vuoden 'tase' -erät osoittavat yrityksen kykyä selviytyä lyhyen aikavälin velvoitteista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of a company based on its financial statements.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten tilintarkastajan päätösmerkintä vaikuttaa tilinpäätöksen voimassaoloon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 3,
+        "task_description": "Tutki tilinpäätösten lainmukaisuutta.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat osakeyhtiön kirjanpitäjiä, ja miten heidän työnsä eroaa toiminimiyrittäjän vastuista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 3,
+        "task_description": "Tutki tilinpäätösten lainmukaisuutta.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on taseen vastaavaa-puolen ja yrityksen oma pääoma välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen taloudellista vakautta.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen taloudelliset trendit viimeisten viiden vuoden aikana vaikuttavat sen tulevaisuuden vakauteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 5,
+        "task_description": "Assess the overall financial stability of a business.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen 'Liikevoitto' vertautuu toimialan keskiarvoon ja mitkä tekijät vaikuttavat eroihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 4,
+        "task_description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on tilinpäätöksen ja kirjanpitoasettuksen välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 3,
+        "task_description": "Tutki tilinpäätösten lainmukaisuutta.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät lainauskohdat kirjanpitolaista, jotka liittyvät yrityksen tilinpäätöksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 3,
+        "task_description": "Tutki tilinpäätösten lainmukaisuutta.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät teemat, joita käsitellään tilinpäätöksissä suomalaisissa yrityksissä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 5,
+        "task_description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten markkinoiden ja lainsäädännön muutokset voivat vaikuttaa yrityksen taloudelliseen vakautta tulevaisuudessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 5,
+        "task_description": "Assess the overall financial stability of a business.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen 'Tilinpäätös' heijastaa sen liiketoimintastrategiaa ja markkinaolosuhteita viiden vuoden aikajänteellä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last five years.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten kirjanpitolaki säätelee taseen muotoa ja sisältöä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 3,
+        "task_description": "Tutki tilinpäätösten lainmukaisuutta.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät syyt, miksi yrityksen vakavaraisuus alenee?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen taloudellista vakautta.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Tilinpäätös' voi auttaa ennustamaan yrityksen tulevaa likviditeettiä ja rahoitustarpeita?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of a company based on its financial statements.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat tilintarkastajien yhteistyökumppaneita, jotka myös tekevät rahoituslaskelmia?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 2,
+        "task_description": "Vertaa eri yritysten taloudellisia raportteja.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten liikevoitto vaikuttaa yrityksen mahdollisuuksiin investoida käyttöomaisuuteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 4,
+        "task_description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri komponentit 'Tilinpäätös' -asiakirjassa yhdessä kuvaavat yrityksen taloudellista vakautta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 5,
+        "task_description": "Assess the overall financial stability of a business.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten useamman yrityksen 'Tilinpäätös' -analyysi voi paljastaa trendejä ja eroja alalla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 4,
+        "task_description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri vuosien 'Tilinpäätös' osoittaa vaatimustenmukaisuutta vaihtelevissa lainsäädäntöympäristöissä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 3,
+        "task_description": "Perform a compliance check against legal standards for financial reporting.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritysten tilinpäätökset paljastavat trendejä taloudellisessa suorituskyvyssä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 5,
+        "task_description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on liikevoiton ero OP Lounaismaan ja Osakeyhtiön välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 2,
+        "task_description": "Vertaa eri yritysten taloudellisia raportteja.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä rooli 'Rahoituskulut' -kategorialla on yrityksen kokonaistuloksessa viimeisten viiden vuoden aikana?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last five years.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritysten liikevaihto vertautuu niiden rahoitustuottoihin ja -kuluihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 2,
+        "task_description": "Vertaa eri yritysten taloudellisia raportteja.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Liikevoitto' ja 'Rahoituskulut' vaikuttavat yrityksen kokonaistaloudelliseen tilanteeseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 5,
+        "task_description": "Assess the overall financial stability of a business.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat rahoitustuottojen tuottajat eri yrityksissä, ja miten he vaikuttavat taloudelliseen suorituskykyyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 4,
+        "task_description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri vuosien 'tase' -analyysi voi paljastaa mahdollisia taloudellisia riskejä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 5,
+        "task_description": "Assess the overall financial stability of a business.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaa eroaa Vientiyrityksestä rahoituskulujen suhteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 2,
+        "task_description": "Vertaa eri yritysten taloudellisia raportteja.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat tärkeimmät vaatimukset, joita 'tuloslaskelma' tulee noudattaa 'Kirjanpitolaki' -säännösten mukaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 3,
+        "task_description": "Perform a compliance check against legal standards for financial reporting.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Rahoituskulut' eri yrityksissä vaikuttavat niiden kilpailukykyyn ja taloudelliseen suorituskykyyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 4,
+        "task_description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen taloudelliset raportit voivat auttaa arvioimaan sen sitoutumista 'Kirjanpitolaki' -normeihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 3,
+        "task_description": "Perform a compliance check against legal standards for financial reporting.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten 'Liikevoitto' on kehittynyt viiden viime vuoden aikana ja mitkä tekijät ovat vaikuttaneet siihen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last five years.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys rahoituskulujen kasvun ja operaatiokustannusten välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 5,
+        "task_description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen kannattavuusvertailut eri vuosina osoittavat sen kykyä sopeutua taloudellisiin haasteisiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial Analyst working in a corporate finance department",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last five years.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten taseen sisällön muutokset vaikuttavat yrityksen maksukykyyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen taloudellista vakautta.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat yritysmaailman merkittävimmät toimijat, jotka vaikuttavat rahoituslaskelmiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 5,
+        "task_description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys liiketoiminnan muiden kulujen ja liikevoiton välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 4,
+        "task_description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät taloudelliset mittarit, joita käytetään yritysten vertailussa taseen osalta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 2,
+        "task_description": "Vertaa eri yritysten taloudellisia raportteja.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat Vientiyrityksen asiakkaita ja miten niiden maksukyky vaikuttaa liikevoittoon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+        "task_id": 1,
+        "task_description": "Analysoi yrityksen taloudellista vakautta.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    }
+  ],
+  "metadata": {
+    "method": "edge_et_al_2024_graphrag",
+    "dataset_description": "The dataset primarily covers the domain of corporate financial reporting, specifically focusing on the components and implications of financial statements such as the balance sheet (tase) and income statement (tuloslaskelma) in Finnish businesses. The knowledge graph includes entities like \"Liikevoitto\" (operating profit), \"Rahoituskulut\" (financial costs), and \"Tilinpäätös\" (financial statement), as well as relationships that illustrate how these entities interact, such as the connection between financial statements and legal requirements (e.g., \"Kirjanpitolaki\" or accounting law). This data is typically used for financial analysis, compliance with legal standards, and assessing the financial health of businesses. Analytical questions it could answer include inquiries about a company's profitability, liquidity, and overall financial stability, as well as comparisons of financial performance over different periods or against industry benchmarks.",
+    "total_questions": 50,
+    "graph_questions": 25,
+    "chunk_questions": 25,
+    "num_users": 1,
+    "num_tasks_per_user": 5,
+    "num_questions_per_task": 5,
+    "has_graph_data": true,
+    "graph_stats": {
+      "total_entities": 53,
+      "total_relations": 47
+    },
+    "generation_time_seconds": 34.3,
+    "generation_time_formatted": "0:00:34",
+    "tokens_used": {
+      "input": 11537,
+      "output": 2168,
+      "total": 13705
+    },
+    "cost_estimate": {
+      "input_cost": 0.001731,
+      "output_cost": 0.001301,
+      "total_cost": 0.003031,
+      "model": "gpt-4o-mini"
+    },
+    "graph_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Taloudellinen analyytikko, joka arvioi yritysten taloudellista tilaa ja tekee suosituksia sijoittajille.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi yrityksen taloudellista vakautta.",
+              "questions": [
+                "Miten maksukyky ja vakavaraisuus liittyvät toisiinsa yrityksessä?",
+                "Mikä yhteys on taseen vastaavaa-puolen ja yrityksen oma pääoma välillä?",
+                "Miten taseen sisällön muutokset vaikuttavat yrityksen maksukykyyn?",
+                "Ketkä ovat Vientiyrityksen asiakkaita ja miten niiden maksukyky vaikuttaa liikevoittoon?",
+                "Mitkä ovat yleisimmät syyt, miksi yrityksen vakavaraisuus alenee?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Vertaa eri yritysten taloudellisia raportteja.",
+              "questions": [
+                "Miten OP Lounaismaa eroaa Vientiyrityksestä rahoituskulujen suhteen?",
+                "Mikä on liikevoiton ero OP Lounaismaan ja Osakeyhtiön välillä?",
+                "Miten yritysten liikevaihto vertautuu niiden rahoitustuottoihin ja -kuluihin?",
+                "Ketkä ovat tilintarkastajien yhteistyökumppaneita, jotka myös tekevät rahoituslaskelmia?",
+                "Mitkä ovat yleisimmät taloudelliset mittarit, joita käytetään yritysten vertailussa taseen osalta?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Tutki tilinpäätösten lainmukaisuutta.",
+              "questions": [
+                "Miten kirjanpitolaki säätelee taseen muotoa ja sisältöä?",
+                "Mikä yhteys on tilinpäätöksen ja kirjanpitoasettuksen välillä?",
+                "Miten tilintarkastajan päätösmerkintä vaikuttaa tilinpäätöksen voimassaoloon?",
+                "Ketkä ovat osakeyhtiön kirjanpitäjiä, ja miten heidän työnsä eroaa toiminimiyrittäjän vastuista?",
+                "Mitkä ovat yleisimmät lainauskohdat kirjanpitolaista, jotka liittyvät yrityksen tilinpäätöksiin?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Tee syvällinen analyysi rahoitustuotoista ja -kuluista.",
+              "questions": [
+                "Miten rahoituskulut ja -tuotot liittyvät toisiinsa tilinpäätöksessä?",
+                "Mikä on yhteys liiketoiminnan muiden kulujen ja liikevoiton välillä?",
+                "Miten liikevoitto vaikuttaa yrityksen mahdollisuuksiin investoida käyttöomaisuuteen?",
+                "Ketkä ovat rahoitustuottojen tuottajat eri yrityksissä, ja miten he vaikuttavat taloudelliseen suorituskykyyn?",
+                "Mitkä ovat yleisimmät haasteet, joita yritykset kohtaavat rahoituskuluissa ja -tuotoissa?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Analysoi eri taloudellisia teemoja ja trendejä.",
+              "questions": [
+                "Miten yritysten tilinpäätökset paljastavat trendejä taloudellisessa suorituskyvyssä?",
+                "Mikä on yhteys rahoituskulujen kasvun ja operaatiokustannusten välillä?",
+                "Miten Vientiyrityksen taloudellinen tilanne vertautuu muihin vientitoimialoihin?",
+                "Ketkä ovat yritysmaailman merkittävimmät toimijat, jotka vaikuttavat rahoituslaskelmiin?",
+                "Mitkä ovat yleisimmät teemat, joita käsitellään tilinpäätöksissä suomalaisissa yrityksissä?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chunk_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Financial Analyst working in a corporate finance department",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analyze a company's profitability over the last five years.",
+              "questions": [
+                "Miten 'Liikevoitto' on kehittynyt viiden viime vuoden aikana ja mitkä tekijät ovat vaikuttaneet siihen?",
+                "Miten eri vuosien 'tuloslaskelma' komponentit suhteutuvat toisiinsa ja mitä se kertoo yrityksen taloudellisesta tilasta?",
+                "Mikä rooli 'Rahoituskulut' -kategorialla on yrityksen kokonaistuloksessa viimeisten viiden vuoden aikana?",
+                "Miten yrityksen 'Tilinpäätös' heijastaa sen liiketoimintastrategiaa ja markkinaolosuhteita viiden vuoden aikajänteellä?",
+                "Miten yrityksen kannattavuusvertailut eri vuosina osoittavat sen kykyä sopeutua taloudellisiin haasteisiin?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Evaluate the liquidity position of a company based on its financial statements.",
+              "questions": [
+                "Miten 'Tilinpäätös' kuvaa yrityksen likviditeettiä ja mitä lukuja siihen liittyy?",
+                "Miten 'Rahoituskulut' voivat vaikuttaa yrityksen likviditeettiin ja sen kykyyn täyttää velvoitteet?",
+                "Miten eri vuoden 'tase' -erät osoittavat yrityksen kykyä selviytyä lyhyen aikavälin velvoitteista?",
+                "Miten yrityksen likviditeetti vertautuu toimialan keskiarvoon ja mitkä ovat sen kilpailuedut tai -haitat?",
+                "Miten 'Tilinpäätös' voi auttaa ennustamaan yrityksen tulevaa likviditeettiä ja rahoitustarpeita?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Perform a compliance check against legal standards for financial reporting.",
+              "questions": [
+                "Miten 'Kirjanpitolaki' vaikuttaa yrityksen 'Tilinpäätös' -prosesseihin ja -käytäntöihin?",
+                "Mitkä ovat tärkeimmät vaatimukset, joita 'tuloslaskelma' tulee noudattaa 'Kirjanpitolaki' -säännösten mukaan?",
+                "Miten yrityksen 'tase' -erät noudattavat tai poikkeavat lainsäädännön vaatimuksista?",
+                "Miten eri vuosien 'Tilinpäätös' osoittaa vaatimustenmukaisuutta vaihtelevissa lainsäädäntöympäristöissä?",
+                "Miten yrityksen taloudelliset raportit voivat auttaa arvioimaan sen sitoutumista 'Kirjanpitolaki' -normeihin?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Conduct a comparative analysis of financial performance against industry benchmarks.",
+              "questions": [
+                "Miten yrityksen 'Liikevoitto' vertautuu toimialan keskiarvoon ja mitkä tekijät vaikuttavat eroihin?",
+                "Miten 'Rahoituskulut' eri yrityksissä vaikuttavat niiden kilpailukykyyn ja taloudelliseen suorituskykyyn?",
+                "Miten useamman yrityksen 'Tilinpäätös' -analyysi voi paljastaa trendejä ja eroja alalla?",
+                "Miten taloudelliset indikaattorit, kuten kannattavuus, vaikuttavat yrityksen asemaan toimialalla?",
+                "Miten eri yritysten 'tuloslaskelma' -analyysi voi auttaa tunnistamaan parhaita käytäntöjä ja kehitysmahdollisuuksia?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Assess the overall financial stability of a business.",
+              "questions": [
+                "Miten eri komponentit 'Tilinpäätös' -asiakirjassa yhdessä kuvaavat yrityksen taloudellista vakautta?",
+                "Miten 'Liikevoitto' ja 'Rahoituskulut' vaikuttavat yrityksen kokonaistaloudelliseen tilanteeseen?",
+                "Miten yrityksen taloudelliset trendit viimeisten viiden vuoden aikana vaikuttavat sen tulevaisuuden vakauteen?",
+                "Miten eri vuosien 'tase' -analyysi voi paljastaa mahdollisia taloudellisia riskejä?",
+                "Miten markkinoiden ja lainsäädännön muutokset voivat vaikuttaa yrityksen taloudelliseen vakautta tulevaisuudessa?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

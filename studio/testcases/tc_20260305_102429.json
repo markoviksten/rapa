@@ -1,0 +1,762 @@
+{
+  "test_cases": [
+    {
+      "question": "Mikä yhteys on Patentti- ja Rekisterihallituksen roolilla ja OP Lounaismaan tilinpäätöksellä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 2,
+        "task_description": "Vertailee eri yritysten taloudellisia raportteja.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat tärkeimmät syyt, jotka vaikuttavat yrityksen kannattavuuden eroihin verrattuna kilpailijoihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 1,
+        "task_description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät trendit OP Lounaismaan taloudellisessa suorituskyvyssä verrattuna muihin osakeyhtiöihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 5,
+        "task_description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat asiantuntijat, jotka myös vertailevat eri yritysten talousraportteja?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 5,
+        "task_description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri rahoituslähteet, kuten osakeanti tai lainat, vaikuttavat yrityksen pääoman kustannuksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 5,
+        "task_description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen myyntitulot ovat muuttuneet viimeisen viiden vuoden aikana verrattuna alan suuntauksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 1,
+        "task_description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen henkilöstö- ja toimintakustannukset voidaan liittää sen rahoituslähteisiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 5,
+        "task_description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten aikaisemmat taloudelliset suorituskyvyt voivat auttaa ennusteiden tekemisessä tulevaisuudelle?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 4,
+        "task_description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät teemat OP Lounaismaan taseen ympärillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 1,
+        "task_description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä taloudellisia indikaattoreita tulee verrata, kun arvioidaan eri yritysten vakavaraisuutta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 3,
+        "task_description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tuloslaskelman ja Rahoituslaskelman yhteys vaikuttaa OP Lounaismaan taloudelliseen arvioon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 5,
+        "task_description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten lyhytaikaiset velat eroavat pitkäaikaisista veloista OP Lounaismaan taseessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 4,
+        "task_description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan taseen vastaavaa-puoli liittyy sen lyhytaikaisiin velkoihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 1,
+        "task_description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri skenaariot voivat vaikuttaa yrityksen tuleviin taloudellisiin tuloksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 4,
+        "task_description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen kilpailuasema markkinoilla voi muuttaa sen taloudellisia ennusteita?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 4,
+        "task_description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten nykyiset taloudelliset trendit voivat vaikuttaa yrityksen tuleviin tulosennusteisiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 4,
+        "task_description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen likviditeetti vaihtelee eri kausina ja mitä siihen vaikuttaa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 2,
+        "task_description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritys voi optimoida rahoituslähteidensä yhdistelmän maksimoidakseen taloudellisen suorituskyvyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 5,
+        "task_description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä rooli yrityksen kassavirta-analyysillä on sen likviditeettitilanteen arvioimisessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 2,
+        "task_description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen rahoituslähteiden monimuotoisuus vaikuttaa sen taloudelliseen vakauteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 5,
+        "task_description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten tilinpäätössiirrot vaikuttavat OP Lounaismaan tilikauden voittoon tai tappioon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 2,
+        "task_description": "Vertailee eri yritysten taloudellisia raportteja.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen lyhytaikainen varat ja velat kehittyvät suhteessa sen likviditeettiasemaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 2,
+        "task_description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Vertailulukujen ja OP Lounaismaan taloudellisen kehityksen välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 5,
+        "task_description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten taloudellisten trendien muutokset voivat vaikuttaa yritysten pitkän aikavälin kestävyyteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 3,
+        "task_description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on eri yritysten taloudellisten tietojen rooli vertailuanalyysissä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 3,
+        "task_description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat juridisia asiantuntijoita, jotka myös auttavat yrityksiä tilinpäätösten laatimisessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 3,
+        "task_description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen liikevoitto suhteutuu sen kokonaismenoihin verrattuna alan keskiarvoon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 1,
+        "task_description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät maksukykyyn liittyvät haasteet, joita yritykset kohtaavat?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 4,
+        "task_description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan tuloslaskelma eroaa Vientiyrityksen tuloslaskelmasta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 2,
+        "task_description": "Vertailee eri yritysten taloudellisia raportteja.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät erot OP Lounaismaan ja Osakeyhtiön tuloveroissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 2,
+        "task_description": "Vertailee eri yritysten taloudellisia raportteja.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan vakavaraisuus eroaa Osakeyhtiön vakavaraisuudesta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 1,
+        "task_description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritysten eri liiketoimintamallit vaikuttavat niiden taloudelliseen kestävyyteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 3,
+        "task_description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on yhteys Taseen ja vakavaraisuuden välillä OP Lounaismaassa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 4,
+        "task_description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on Kirjanpitoasetuksella ja Tuloslaskelman laatimiseen käytettävillä kaavoilla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 3,
+        "task_description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten erilaiset taloudelliset indikaattorit, kuten ROI ja nettotulos, vaikuttavat yrityksen kannattavuusarvioon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 1,
+        "task_description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten erilaiset rahoitusinstrumentit voivat parantaa yrityksen likviditeettiä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 2,
+        "task_description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Kirjanpitolaki vaikuttaa yritysten taseen muotoon?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 3,
+        "task_description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat OP Lounaismaan yhteistyökumppaneita, jotka myös tarjoavat kirjanpitopalveluja?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 1,
+        "task_description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Tase vaikuttaa OP Lounaismaan maksuvalmiuteen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 4,
+        "task_description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat Vientiyrityksen yhteistyökumppaneita, jotka myös tekevät rahoitustoimintaa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 2,
+        "task_description": "Vertailee eri yritysten taloudellisia raportteja.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät haasteet kirjanpito- ja aineistoluettelon laatimisessa yrityksille?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 3,
+        "task_description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on OP Lounaismaan liikevoiton ja sen rahoituskulujen välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 1,
+        "task_description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat rahoituskulujen ja tuottojen analyytikoita, jotka myös arvioivat yritysten vakavaraisuutta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 4,
+        "task_description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan liikevaihto on muuttunut verrattuna edellisiin tilikausiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 5,
+        "task_description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten taloudelliset ja markkinatilanteet vaikuttavat yrityksen rahoituslähteiden valintaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 5,
+        "task_description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten lainsäädäntö ja sääntely vaikuttavat yritysten taloudellisen kestävyyden arvioimiseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 3,
+        "task_description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten kirjanpito ja talousvalmennus tukevat OP Lounaismaan taloudellista kehitystä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+        "task_id": 3,
+        "task_description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä taloudellisia parametreja tulee tarkastella, kun tehdään ennusteita yrityksen kasvusta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 4,
+        "task_description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritys voi parantaa likviditeettiään ilman lainanottoa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 2,
+        "task_description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen strategiavalinnat ovat voineet vaikuttaa sen kannattavuuteen ja tulevaisuuden näkymiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+        "task_id": 1,
+        "task_description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    }
+  ],
+  "metadata": {
+    "method": "edge_et_al_2024_graphrag",
+    "dataset_description": "The dataset primarily covers the domain of corporate financial reporting, specifically focusing on financial statements such as balance sheets and income statements in the context of Finnish accounting practices. The knowledge graph includes various entities such as financial concepts (e.g., balance sheet, income statement, and equity), organizations (e.g., OP Lounaismaa and Patentti- ja Rekisterihallitus), and relevant legal frameworks (e.g., accounting law). Relationships between these entities illustrate how financial statements are interconnected and governed by regulations, highlighting their importance in assessing a company's financial health. This data is typically used for financial analysis, compliance with legal requirements, and decision-making processes related to business operations and funding. Analytical questions that could be addressed include inquiries about a company's profitability, liquidity, and solvency, as well as comparisons of financial performance over different periods or against industry benchmarks.",
+    "total_questions": 50,
+    "graph_questions": 25,
+    "chunk_questions": 25,
+    "num_users": 1,
+    "num_tasks_per_user": 5,
+    "num_questions_per_task": 5,
+    "has_graph_data": true,
+    "graph_stats": {
+      "total_entities": 53,
+      "total_relations": 47
+    },
+    "generation_time_seconds": 60.8,
+    "generation_time_formatted": "0:01:00",
+    "tokens_used": {
+      "input": 11521,
+      "output": 2119,
+      "total": 13640
+    },
+    "cost_estimate": {
+      "input_cost": 0.001728,
+      "output_cost": 0.001271,
+      "total_cost": 0.003,
+      "model": "gpt-4o-mini"
+    },
+    "graph_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Taloudellinen analyytikko, joka tutkii ja arvioi yritysten taloudellista tilannetta ja suorituskykyä.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi OP Lounaismaan taloudellista tilannetta ja sen kehitystä.",
+              "questions": [
+                "Miten OP Lounaismaan taseen vastaavaa-puoli liittyy sen lyhytaikaisiin velkoihin?",
+                "Mikä yhteys on OP Lounaismaan liikevoiton ja sen rahoituskulujen välillä?",
+                "Ketkä ovat OP Lounaismaan yhteistyökumppaneita, jotka myös tarjoavat kirjanpitopalveluja?",
+                "Miten OP Lounaismaan vakavaraisuus eroaa Osakeyhtiön vakavaraisuudesta?",
+                "Mitkä ovat yleisimmät teemat OP Lounaismaan taseen ympärillä?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Vertailee eri yritysten taloudellisia raportteja.",
+              "questions": [
+                "Miten OP Lounaismaan tuloslaskelma eroaa Vientiyrityksen tuloslaskelmasta?",
+                "Mikä yhteys on Patentti- ja Rekisterihallituksen roolilla ja OP Lounaismaan tilinpäätöksellä?",
+                "Ketkä ovat Vientiyrityksen yhteistyökumppaneita, jotka myös tekevät rahoitustoimintaa?",
+                "Miten tilinpäätössiirrot vaikuttavat OP Lounaismaan tilikauden voittoon tai tappioon?",
+                "Mitkä ovat yleisimmät erot OP Lounaismaan ja Osakeyhtiön tuloveroissa?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Tutkii taloudellisten lakien vaikutusta yritysten talousraportteihin.",
+              "questions": [
+                "Miten Kirjanpitolaki vaikuttaa yritysten taseen muotoon?",
+                "Mikä yhteys on Kirjanpitoasetuksella ja Tuloslaskelman laatimiseen käytettävillä kaavoilla?",
+                "Ketkä ovat juridisia asiantuntijoita, jotka myös auttavat yrityksiä tilinpäätösten laatimisessa?",
+                "Miten kirjanpito ja talousvalmennus tukevat OP Lounaismaan taloudellista kehitystä?",
+                "Mitkä ovat yleisimmät haasteet kirjanpito- ja aineistoluettelon laatimisessa yrityksille?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Arvioi yritysten maksuvalmiutta ja vakavaraisuutta.",
+              "questions": [
+                "Miten Tase vaikuttaa OP Lounaismaan maksuvalmiuteen?",
+                "Mikä on yhteys Taseen ja vakavaraisuuden välillä OP Lounaismaassa?",
+                "Ketkä ovat rahoituskulujen ja tuottojen analyytikoita, jotka myös arvioivat yritysten vakavaraisuutta?",
+                "Miten lyhytaikaiset velat eroavat pitkäaikaisista veloista OP Lounaismaan taseessa?",
+                "Mitkä ovat yleisimmät maksukykyyn liittyvät haasteet, joita yritykset kohtaavat?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Vertaa eri yritysten taloudellista kehitystä eri ajanjaksoilla.",
+              "questions": [
+                "Miten OP Lounaismaan liikevaihto on muuttunut verrattuna edellisiin tilikausiin?",
+                "Mikä yhteys on Vertailulukujen ja OP Lounaismaan taloudellisen kehityksen välillä?",
+                "Ketkä ovat asiantuntijat, jotka myös vertailevat eri yritysten talousraportteja?",
+                "Miten Tuloslaskelman ja Rahoituslaskelman yhteys vaikuttaa OP Lounaismaan taloudelliseen arvioon?",
+                "Mitkä ovat yleisimmät trendit OP Lounaismaan taloudellisessa suorituskyvyssä verrattuna muihin osakeyhtiöihin?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chunk_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Rahoitusanalyyttinen asiantuntija, joka analysoi yritysten taloudellista suorituskykyä ja tekee suosituksia sijoituspäätöksille.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Arvioi yrityksen kannattavuutta ja vertaa sitä alan keskiarvoon.",
+              "questions": [
+                "Miten yrityksen liikevoitto suhteutuu sen kokonaismenoihin verrattuna alan keskiarvoon?",
+                "Mitkä ovat tärkeimmät syyt, jotka vaikuttavat yrityksen kannattavuuden eroihin verrattuna kilpailijoihin?",
+                "Miten yrityksen myyntitulot ovat muuttuneet viimeisen viiden vuoden aikana verrattuna alan suuntauksiin?",
+                "Miten erilaiset taloudelliset indikaattorit, kuten ROI ja nettotulos, vaikuttavat yrityksen kannattavuusarvioon?",
+                "Miten yrityksen strategiavalinnat ovat voineet vaikuttaa sen kannattavuuteen ja tulevaisuuden näkymiin?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Analysoi yrityksen likviditeettiä ja sen kykyä täyttää lyhytaikaiset velvoitteet.",
+              "questions": [
+                "Miten yrityksen lyhytaikainen varat ja velat kehittyvät suhteessa sen likviditeettiasemaan?",
+                "Mikä rooli yrityksen kassavirta-analyysillä on sen likviditeettitilanteen arvioimisessa?",
+                "Miten erilaiset rahoitusinstrumentit voivat parantaa yrityksen likviditeettiä?",
+                "Miten yrityksen likviditeetti vaihtelee eri kausina ja mitä siihen vaikuttaa?",
+                "Miten yritys voi parantaa likviditeettiään ilman lainanottoa?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Tee vertailua eri yritysten taloudellisesta kestävyydestä.",
+              "questions": [
+                "Mitä taloudellisia indikaattoreita tulee verrata, kun arvioidaan eri yritysten vakavaraisuutta?",
+                "Miten yritysten eri liiketoimintamallit vaikuttavat niiden taloudelliseen kestävyyteen?",
+                "Miten lainsäädäntö ja sääntely vaikuttavat yritysten taloudellisen kestävyyden arvioimiseen?",
+                "Mikä on eri yritysten taloudellisten tietojen rooli vertailuanalyysissä?",
+                "Miten taloudellisten trendien muutokset voivat vaikuttaa yritysten pitkän aikavälin kestävyyteen?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Tee ennusteita yrityksen tulevasta taloudellisesta kehityksestä.",
+              "questions": [
+                "Miten nykyiset taloudelliset trendit voivat vaikuttaa yrityksen tuleviin tulosennusteisiin?",
+                "Mitä taloudellisia parametreja tulee tarkastella, kun tehdään ennusteita yrityksen kasvusta?",
+                "Miten yrityksen kilpailuasema markkinoilla voi muuttaa sen taloudellisia ennusteita?",
+                "Miten aikaisemmat taloudelliset suorituskyvyt voivat auttaa ennusteiden tekemisessä tulevaisuudelle?",
+                "Miten eri skenaariot voivat vaikuttaa yrityksen tuleviin taloudellisiin tuloksiin?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Analysoi yrityksen rahoituslähteitä ja niiden vaikutuksia.",
+              "questions": [
+                "Miten yrityksen rahoituslähteiden monimuotoisuus vaikuttaa sen taloudelliseen vakauteen?",
+                "Miten eri rahoituslähteet, kuten osakeanti tai lainat, vaikuttavat yrityksen pääoman kustannuksiin?",
+                "Miten yrityksen henkilöstö- ja toimintakustannukset voidaan liittää sen rahoituslähteisiin?",
+                "Miten taloudelliset ja markkinatilanteet vaikuttavat yrityksen rahoituslähteiden valintaan?",
+                "Miten yritys voi optimoida rahoituslähteidensä yhdistelmän maksimoidakseen taloudellisen suorituskyvyn?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

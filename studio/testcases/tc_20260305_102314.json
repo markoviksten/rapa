@@ -1,0 +1,762 @@
+{
+  "test_cases": [
+    {
+      "question": "Miten yrityksen kirjaukset ja raportointi ovat muuttuneet lainmuutosten seurauksena?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 5,
+        "task_description": "Investigate compliance with financial regulations.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä trendejä voit havaita yrityksen tuloslaskelmasta, ja miten ne heijastavat sen taloudellista terveyttä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last three years.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten rahoituskulut vaikuttavat liikevoittoon tulojen yhteydessä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 2,
+        "task_description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten vakavaraisuus liittyy maksukyvyn arvioimiseen yrityksessä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 1,
+        "task_description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten osakeyhtiön ja osuuskunnan tilinpäätös eroaa toisistaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 5,
+        "task_description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen taloudellinen suorituskyky on muuttunut eri vuosineljänneksillä, ja mitä syitä muutoksiin on ollut?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 4,
+        "task_description": "Compare financial performance across different periods.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on rahoituskulujen vaikutus yrityksen verotukseen liikevoiton jälkeen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 2,
+        "task_description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä eroja on havaittavissa yrityksen taseen ja sen kilpailijoiden taseiden välillä, ja mitä ne voivat kertoa yrityksen riskiprofiilista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 3,
+        "task_description": "Assess the solvency of a company based on its balance sheet.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Voitko luoda yhteenvedon siitä, miten eri yritykset ovat hallinneet likviditeettiriskiään viime vuosina?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of multiple firms in the same sector.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on taseen ja yrityksen maksuvalmiuden välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 1,
+        "task_description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitä analyysimenetelmiä voidaan käyttää menestyksekkään taloudellisen suorituskyvyn arvioimiseen eri ajanjaksoilla?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 4,
+        "task_description": "Compare financial performance across different periods.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen liikevoitto on muuttunut kolmen vuoden aikana, ja mitkä tekijät ovat vaikuttaneet muutoksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last three years.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen varat ja sitoumukset ovat muuttuneet aikavälin aikana, ja mitä tämä tarkoittaa sen maksukyvyille?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 3,
+        "task_description": "Assess the solvency of a company based on its balance sheet.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen tilinpäätös noudattaa voimassa olevia talouslakeja ja -sääntöjä, ja mitä asioita siinä ei ole huomioitu?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 5,
+        "task_description": "Investigate compliance with financial regulations.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yrityksen tärkeimmät likviditeetti-indikaattorit, ja miten ne liittyvät sen taloudelliseen vakautumiseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of multiple firms in the same sector.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat keskeiset tekijät, jotka ovat vaikuttaneet yrityksen tulokseen aikaisempina vuosina verrattuna nykytilanteeseen?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 4,
+        "task_description": "Compare financial performance across different periods.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen kulurakenne on muuttunut, ja mikä merkitys sillä on sen kannattavuudelle?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last three years.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten viimeisimmät tilinpäätöstiedot vaikuttavat yrityksen tulevaisuuden rahoitusstrategioihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 3,
+        "task_description": "Assess the solvency of a company based on its balance sheet.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten maksukyvyn ja vakavaraisuuden välillä on synergiaa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 1,
+        "task_description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri sääntelyelinten vaatimukset vaikuttavat yrityksen taloudelliseen raportointiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 5,
+        "task_description": "Investigate compliance with financial regulations.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on ero osakeyhtiön ja osuuskunnan verotuksessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 5,
+        "task_description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritys on reagoinut mahdollisiin sääntelyhaasteisiin, ja mitä vaikutuksia sillä on ollut sen taloudelliseen suorituskykyyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 5,
+        "task_description": "Investigate compliance with financial regulations.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri tase-erät, kuten oma pääoma ja velat, heijastavat yrityksen taloudellista tilannetta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 3,
+        "task_description": "Assess the solvency of a company based on its balance sheet.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä rooli taseella on yrityksen vakavaraisuuden arvioinnissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 1,
+        "task_description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on rahoituskuluilla ja liiketoiminnan kannattavuudella?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 2,
+        "task_description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Ketkä ovat yrityksen rahoituslaitoksia, jotka tarjoavat lainoja rahoituskulujen kattamiseksi?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 2,
+        "task_description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan tase kertoo sen varojen ja velkojen suhteesta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 4,
+        "task_description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten Päivi Lehtilän työ OP Lounaismaassa vaikuttaa yrityksen taloushallintaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 4,
+        "task_description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Voitko eritellä, miten kausivaihtelut ovat vaikuttaneet yrityksen taloudellisiin lukuihin eri vuosina?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 4,
+        "task_description": "Compare financial performance across different periods.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen likviditeetti on muuttunut talouden yleisten olosuhteiden mukaan, ja mitä johtopäätöksiä voidaan tehdä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of multiple firms in the same sector.",
+        "question_index": 5,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat yleisimmät osat, jotka sisältyvät tuloslaskelmaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 3,
+        "task_description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+        "question_index": 1,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten taloudellisen raportoinnin käytännöt ovat muuttuneet, ja miten se on vaikuttanut yrityksen raportoitaviin tietoihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 4,
+        "task_description": "Compare financial performance across different periods.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten osakeyhtiöiden ja osuuskuntien rahoitusstrategiat eroavat toisistaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 5,
+        "task_description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten OP Lounaismaan vakavaraisuus verrattuna muihin organisaatioihin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 4,
+        "task_description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten rahoituskulut ja rahoitustuotot vaikuttavat toisiinsa yrityksen taloudessa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 2,
+        "task_description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yritysten likviditeetti vertautuu toisiinsa, ja mitkä syyt selittävät havaitut erot?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of multiple firms in the same sector.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Voitko arvioida yrityksen riskitavoitteita ja niiden yhteyttä lainsäädännön vaatimuksiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 5,
+        "task_description": "Investigate compliance with financial regulations.",
+        "question_index": 3,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten vakavaraisuus vaikuttaa yrityksen kykyyn selvitä lyhytaikaisista veloista?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 1,
+        "task_description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on OP Lounaismaan ja Kaupparekisterin välillä tilinpäätöksissä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 4,
+        "task_description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on OP Lounaismaan rooli rahoituslaitoksena taloudellisessa raportoinnissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 4,
+        "task_description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten osakeyhtiön maksukyvyn arviointi poikkeaa osuuskunnasta?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 5,
+        "task_description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mitkä ovat keskeiset teemat, jotka toistuvat yrityksen tuloslaskelmassa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 3,
+        "task_description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+        "question_index": 5,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä on tuloslaskelman merkitys yrityksen taloudellisen tilan arvioinnissa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 3,
+        "task_description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+        "question_index": 3,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten tuloslaskelma muuttuu eri tilikausien välillä?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 3,
+        "task_description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten liikevoitto ja rahoituskulut näkyvät tuloslaskelmassa?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 3,
+        "task_description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+        "question_index": 2,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Voitko vertailla yrityksen liikevoittoa sen kilpailijoiden keskimääräiseen liikevoittoon ja perustella havaintosi?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last three years.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten eri tuloerät ovat vaikuttaneet yrityksen kokonaistulokseen viimeisten kolmen vuoden aikana?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 1,
+        "task_description": "Analyze a company's profitability over the last three years.",
+        "question_index": 4,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten yrityksen velkaantumisaste vaikuttaa sen pitkän aikavälin maksukykyyn?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 3,
+        "task_description": "Assess the solvency of a company based on its balance sheet.",
+        "question_index": 1,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Mikä yhteys on osakeyhtiön ja osuuskunnan tuloverolla heidän taloudellisessa toiminnassaan?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+        "task_id": 5,
+        "task_description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+        "question_index": 4,
+        "question_type": "graph",
+        "method": "edge_et_al_2024"
+      }
+    },
+    {
+      "question": "Miten tilinpäätöksen eri osat, kuten varat ja velat, vaikuttavat yritysten likviditeettiin?",
+      "metadata": {
+        "user_id": 1,
+        "user_description": "Financial analyst working for an investment firm",
+        "task_id": 2,
+        "task_description": "Evaluate the liquidity position of multiple firms in the same sector.",
+        "question_index": 2,
+        "question_type": "chunk",
+        "method": "edge_et_al_2024"
+      }
+    }
+  ],
+  "metadata": {
+    "method": "edge_et_al_2024_graphrag",
+    "dataset_description": "The dataset primarily covers the domain of corporate financial reporting, specifically focusing on financial statements such as balance sheets and income statements (tilinpäätös, tuloslaskelma, and tase) in Finland. The knowledge graph contains various entities, including concepts related to financial reporting (e.g., income statement, balance sheet, financial law), organizations (e.g., OP Lounaismaa, Kaupparekisteri), and individuals (e.g., Päivi Lehtilä), along with relationships that illustrate how these entities interact, such as the connection between financial statements and their required components. This data is typically used for analyzing a company's financial health, compliance with legal requirements, and overall performance over time. Analytical questions that could be answered include inquiries about a company's profitability, liquidity, and solvency, as well as comparisons of financial performance across different periods or entities.",
+    "total_questions": 50,
+    "graph_questions": 25,
+    "chunk_questions": 25,
+    "num_users": 1,
+    "num_tasks_per_user": 5,
+    "num_questions_per_task": 5,
+    "has_graph_data": true,
+    "graph_stats": {
+      "total_entities": 53,
+      "total_relations": 47
+    },
+    "generation_time_seconds": 42.2,
+    "generation_time_formatted": "0:00:42",
+    "tokens_used": {
+      "input": 11533,
+      "output": 2073,
+      "total": 13606
+    },
+    "cost_estimate": {
+      "input_cost": 0.00173,
+      "output_cost": 0.001244,
+      "total_cost": 0.002974,
+      "model": "gpt-4o-mini"
+    },
+    "graph_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Tilintarkastaja, joka arvioi yritysten tilinpäätöksiä ja varmistaa niiden lainmukaisuuden.",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analysoi, miten yrityksen vakavaraisuus ja maksuvalmius liittyvät toisiinsa.",
+              "questions": [
+                "Miten vakavaraisuus liittyy maksukyvyn arvioimiseen yrityksessä?",
+                "Mikä yhteys on taseen ja yrityksen maksuvalmiuden välillä?",
+                "Miten vakavaraisuus vaikuttaa yrityksen kykyyn selvitä lyhytaikaisista veloista?",
+                "Mikä rooli taseella on yrityksen vakavaraisuuden arvioinnissa?",
+                "Miten maksukyvyn ja vakavaraisuuden välillä on synergiaa?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Tutki, mitkä rahoituskulut vaikuttavat liikevoittoon ja mihin ne liittyvät.",
+              "questions": [
+                "Miten rahoituskulut vaikuttavat liikevoittoon tulojen yhteydessä?",
+                "Mikä yhteys on rahoituskuluilla ja liiketoiminnan kannattavuudella?",
+                "Ketkä ovat yrityksen rahoituslaitoksia, jotka tarjoavat lainoja rahoituskulujen kattamiseksi?",
+                "Miten rahoituskulut ja rahoitustuotot vaikuttavat toisiinsa yrityksen taloudessa?",
+                "Mikä on rahoituskulujen vaikutus yrityksen verotukseen liikevoiton jälkeen?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Laadi tiivistelmä yrityksen tuloslaskelmasta ja sen osista.",
+              "questions": [
+                "Mitkä ovat yleisimmät osat, jotka sisältyvät tuloslaskelmaan?",
+                "Miten liikevoitto ja rahoituskulut näkyvät tuloslaskelmassa?",
+                "Mikä on tuloslaskelman merkitys yrityksen taloudellisen tilan arvioinnissa?",
+                "Miten tuloslaskelma muuttuu eri tilikausien välillä?",
+                "Mitkä ovat keskeiset teemat, jotka toistuvat yrityksen tuloslaskelmassa?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Arvioi OP Lounaismaan taloudellista tilannetta ja sen merkitystä.",
+              "questions": [
+                "Miten Päivi Lehtilän työ OP Lounaismaassa vaikuttaa yrityksen taloushallintaan?",
+                "Mikä on OP Lounaismaan rooli rahoituslaitoksena taloudellisessa raportoinnissa?",
+                "Miten OP Lounaismaan tase kertoo sen varojen ja velkojen suhteesta?",
+                "Miten OP Lounaismaan vakavaraisuus verrattuna muihin organisaatioihin?",
+                "Mikä yhteys on OP Lounaismaan ja Kaupparekisterin välillä tilinpäätöksissä?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Vertaa osakeyhtiöitä ja osuuskuntia niiden taloudellisessa raportoinnissa.",
+              "questions": [
+                "Miten osakeyhtiön ja osuuskunnan tilinpäätös eroaa toisistaan?",
+                "Mikä on ero osakeyhtiön ja osuuskunnan verotuksessa?",
+                "Miten osakeyhtiön maksukyvyn arviointi poikkeaa osuuskunnasta?",
+                "Mikä yhteys on osakeyhtiön ja osuuskunnan tuloverolla heidän taloudellisessa toiminnassaan?",
+                "Miten osakeyhtiöiden ja osuuskuntien rahoitusstrategiat eroavat toisistaan?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chunk_structure": {
+      "users": [
+        {
+          "user_id": 1,
+          "description": "Financial analyst working for an investment firm",
+          "tasks": [
+            {
+              "task_id": 1,
+              "description": "Analyze a company's profitability over the last three years.",
+              "questions": [
+                "Miten yrityksen liikevoitto on muuttunut kolmen vuoden aikana, ja mitkä tekijät ovat vaikuttaneet muutoksiin?",
+                "Voitko vertailla yrityksen liikevoittoa sen kilpailijoiden keskimääräiseen liikevoittoon ja perustella havaintosi?",
+                "Mitä trendejä voit havaita yrityksen tuloslaskelmasta, ja miten ne heijastavat sen taloudellista terveyttä?",
+                "Miten eri tuloerät ovat vaikuttaneet yrityksen kokonaistulokseen viimeisten kolmen vuoden aikana?",
+                "Miten yrityksen kulurakenne on muuttunut, ja mikä merkitys sillä on sen kannattavuudelle?"
+              ]
+            },
+            {
+              "task_id": 2,
+              "description": "Evaluate the liquidity position of multiple firms in the same sector.",
+              "questions": [
+                "Miten yritysten likviditeetti vertautuu toisiinsa, ja mitkä syyt selittävät havaitut erot?",
+                "Miten tilinpäätöksen eri osat, kuten varat ja velat, vaikuttavat yritysten likviditeettiin?",
+                "Mitkä ovat yrityksen tärkeimmät likviditeetti-indikaattorit, ja miten ne liittyvät sen taloudelliseen vakautumiseen?",
+                "Voitko luoda yhteenvedon siitä, miten eri yritykset ovat hallinneet likviditeettiriskiään viime vuosina?",
+                "Miten yrityksen likviditeetti on muuttunut talouden yleisten olosuhteiden mukaan, ja mitä johtopäätöksiä voidaan tehdä?"
+              ]
+            },
+            {
+              "task_id": 3,
+              "description": "Assess the solvency of a company based on its balance sheet.",
+              "questions": [
+                "Miten yrityksen velkaantumisaste vaikuttaa sen pitkän aikavälin maksukykyyn?",
+                "Miten eri tase-erät, kuten oma pääoma ja velat, heijastavat yrityksen taloudellista tilannetta?",
+                "Mitä eroja on havaittavissa yrityksen taseen ja sen kilpailijoiden taseiden välillä, ja mitä ne voivat kertoa yrityksen riskiprofiilista?",
+                "Miten viimeisimmät tilinpäätöstiedot vaikuttavat yrityksen tulevaisuuden rahoitusstrategioihin?",
+                "Miten yrityksen varat ja sitoumukset ovat muuttuneet aikavälin aikana, ja mitä tämä tarkoittaa sen maksukyvyille?"
+              ]
+            },
+            {
+              "task_id": 4,
+              "description": "Compare financial performance across different periods.",
+              "questions": [
+                "Miten yrityksen taloudellinen suorituskyky on muuttunut eri vuosineljänneksillä, ja mitä syitä muutoksiin on ollut?",
+                "Mitkä ovat keskeiset tekijät, jotka ovat vaikuttaneet yrityksen tulokseen aikaisempina vuosina verrattuna nykytilanteeseen?",
+                "Voitko eritellä, miten kausivaihtelut ovat vaikuttaneet yrityksen taloudellisiin lukuihin eri vuosina?",
+                "Miten taloudellisen raportoinnin käytännöt ovat muuttuneet, ja miten se on vaikuttanut yrityksen raportoitaviin tietoihin?",
+                "Mitä analyysimenetelmiä voidaan käyttää menestyksekkään taloudellisen suorituskyvyn arvioimiseen eri ajanjaksoilla?"
+              ]
+            },
+            {
+              "task_id": 5,
+              "description": "Investigate compliance with financial regulations.",
+              "questions": [
+                "Miten yrityksen tilinpäätös noudattaa voimassa olevia talouslakeja ja -sääntöjä, ja mitä asioita siinä ei ole huomioitu?",
+                "Miten eri sääntelyelinten vaatimukset vaikuttavat yrityksen taloudelliseen raportointiin?",
+                "Voitko arvioida yrityksen riskitavoitteita ja niiden yhteyttä lainsäädännön vaatimuksiin?",
+                "Miten yrityksen kirjaukset ja raportointi ovat muuttuneet lainmuutosten seurauksena?",
+                "Miten yritys on reagoinut mahdollisiin sääntelyhaasteisiin, ja mitä vaikutuksia sillä on ollut sen taloudelliseen suorituskykyyn?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
