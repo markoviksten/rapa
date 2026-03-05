@@ -4,12 +4,12 @@ model_list:
   - model_name: gpt-4o-mini
     litellm_params:
       model: openai/gpt-4o-mini
-      api_key: os.environ/OPENAI_API_KEY
+      api_key: "os.environ/OPENAI_API_KEY"
       
   - model_name: text-embedding-3-small
     litellm_params:
       model: openai/text-embedding-3-small
-      api_key: os.environ/OPENAI_API_KEY
+      api_key: "os.environ/OPENAI_API_KEY"
   # Embedding model
   - model_name: intfloat/multilingual-e5-large
     litellm_params:

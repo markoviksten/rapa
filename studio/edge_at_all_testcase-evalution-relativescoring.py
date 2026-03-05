@@ -42,7 +42,7 @@ load_dotenv()
 
 OPENAI_API_KEY     = os.getenv("LLM_BINDING_API_KEY")
 LIGHTRAG_ENDPOINT  = "http://localhost:9623"
-LIGHTRAG_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6NDkyNjI4NzIxMiwicm9sZSI6InVzZXIiLCJtZXRhZGF0YSI6eyJhdXRoX21vZGUiOiJlbmFibGVkIn19.5IhPzGjRpznfP04-SIqz6JoOPp2zyJBtHzMqSA5GtKs"
+LIGHTRAG_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6NDkyMzgxMzIzMCwicm9sZSI6InVzZXIiLCJtZXRhZGF0YSI6eyJhdXRoX21vZGUiOiJlbmFibGVkIn19.0BTuVkGRO2wljpwiZoKmob22_Z7FiIj0VdqgPsKMHh4"
 LIGHTRAG_API_KEY   = "your-secure-api-key-here-marko"
 
 # Vertailtavat modet: A vs B
@@ -56,8 +56,18 @@ TEST_FILE = "studio/testcases/tc_20260227_080328.json"
 JUDGE_MODEL = "gpt-4o"   # Suositellaan isompaa mallia arviointiin
 
 # RAG-hakuasetukset
-TOP_K      = 10
+TOP_K      = 10   # naive-moden top_k
 USER_PROMPT = ""
+
+# Parametrit graph-pohjaisia modeja varten (kaikki muut kuin naive)
+GRAPH_MODE_PARAMS = {
+    "top_k":               20,
+    "chunk_top_k":         40,
+    "max_entity_tokens":   6000,
+    "max_relation_tokens": 8000,
+    "max_total_tokens":    30000,
+    "enable_rerank":       True,
+}
 
 # Satunnaista A/B-järjestystä position biasin vähentämiseksi
 RANDOMIZE_AB_ORDER = True
@@ -107,15 +117,24 @@ def query_lightrag(question: str, mode: str) -> Tuple[str, List[str]]:
         "X-API-Key": LIGHTRAG_API_KEY,
     }
 
+    is_naive = mode == "naive"
     payload = {
         "query": question,
         "mode": mode,
-        "top_k": TOP_K,
+        "top_k": TOP_K if is_naive else GRAPH_MODE_PARAMS["top_k"],
         "only_need_context": False,
         "include_references": True,
         "include_chunk_content": True,
         "stream": False,
     }
+    if not is_naive:
+        payload.update({
+            "chunk_top_k":         GRAPH_MODE_PARAMS["chunk_top_k"],
+            "max_entity_tokens":   GRAPH_MODE_PARAMS["max_entity_tokens"],
+            "max_relation_tokens": GRAPH_MODE_PARAMS["max_relation_tokens"],
+            "max_total_tokens":    GRAPH_MODE_PARAMS["max_total_tokens"],
+            "enable_rerank":       GRAPH_MODE_PARAMS["enable_rerank"],
+        })
     if USER_PROMPT:
         payload["user_prompt"] = USER_PROMPT
 
